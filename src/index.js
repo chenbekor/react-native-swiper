@@ -579,7 +579,7 @@ export default class extends Component {
     if (this.props.loop || this.state.index !== this.state.total - 1) {
       button = this.props.nextButton || <Text style={[
         styles.button,
-        {color: this.props.buttonColor || style.color.primary}
+        {color: this.props.buttonColor || styles.color.primary}
       ]}>›</Text>
     }
 
@@ -601,7 +601,7 @@ export default class extends Component {
     if (this.props.loop || this.state.index !== 0) {
       button = this.props.prevButton || <Text style={[
         styles.button,
-        {color: this.props.buttonColor || style.color.primary}
+        {color: this.props.buttonColor || styles.color.primary}
       ]}>‹</Text>
     }
 
